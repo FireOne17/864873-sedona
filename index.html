@@ -91,26 +91,57 @@
   				</li>
   			</ul>
   		</section>
-  		<div class="benefits">
-  			<h2 class="benefits-interest">Заинтересовались?</h2>
-  			<p class="benefits-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне
-            </p>
-
-            <form>
-              
-            </form>
+  		  <div class="benefits">
+        	<h2 class="benefits-interest">Заинтересовались?</h2>
+        	<p class="benefits-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне
+          </p>
+          <div class="searh-map">
+            <div class="searh-btn">
+             <button class="searh-btn-open" type="button">
+               Поиск гостиници в Седоне
+             </button>
+             <div class="form-searh">
+               <form class="form-searh-iinfo"action="https://echo.htmlacademy.ru" method="post">
+                <p class="form-date">
+                  <h2 class="visually-hidden">Форма</h2>
+                  <label for="date-ed">Дата заезда:</label>
+                  <input class="icon" type="text" name="date" id="date-ed" placeholder="24 апреля 2017" required>
+                  <input type="image" src="">
+                </p>
+                <p class="form-date">
+                  <label for="date-exit">Дата выезда:</label>
+                  <input class="icon" type="text" name="date-exit" id="date-exit" placeholder="4 июля 2017" required>
+                </p>
+                <p class="number-persons">
+                  <label for="number-ed">Взрослые:</label>
+                  <a class="number-persons-btn-minus" href="#" aria-label="убавить">-</a>
+                  <input type="text" name="number"   id="number-ed" placeholder="2">
+                  <a class="number-persons-btn--btn-plus" href=""  aria-label="прибавить">+</a>
+                </p>
+                <p class="number-persons">
+                  <label for="number-children">Дети:</label>
+                  <a class="number-persons-btn-minus" href="#"  aria-label="убавить">-</a>
+                  <input type="text" name="number"   id="number-children" placeholder="0">
+                  <a class="number-persons-btn--btn-plus" href=""  aria-label="прибавить">+</a>
+                </p>
+                <input type="submit" name="button" value="Найти">
+               </form>
+             </div>
+            </div>
+            
           </div>
+        </div>
   	</main>
   	<footer class="main-footer">
   			<p>#VISITSEDONA</p> 
   		 <div class="footer-social">
-        	<a class="social-button" href="#">Твитер</a>
-        	<a class="social-button" href="#">Фейсбук</a>
-        	<a class="social-button" href="#">Ютуб</a>
+        	<a class="social-button" href="www.twitter.com" aria-lable="Cидона в Твитере">Твитер</a>
+        	<a class="social-button" href="www.facebook.com" aria-lable="Cидона в Фейсбуке">Фейсбук</a>
+        	<a class="social-button" href="www.youtube.com" aria-lable="Cидона в Ютуб">Ютуб</a>
       </div>
        <p class="footer-copyright">
         <b>Website by</b>
-        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+        <a class="button" href="https://htmlacademy.ru" aria-label="иненсив по HTML и css для начинающих">HTML Academy</a>
       </p>	
   		</footer>
   </body>
