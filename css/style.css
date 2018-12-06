@@ -222,7 +222,6 @@ a{
 	color: #dadada;
 }
 
-.main-menu .active {
-
+.main-menu li.site-menu-right.active{
 color: #766357;
 }	
