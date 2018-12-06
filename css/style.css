@@ -166,3 +166,63 @@ label{
 	background-color: #5496bd;
 	color: #94b9d2;
 }
+
+.main-footer{
+	background-color: #f9fbf7;
+
+}
+
+.inner-page{
+padding: 0;
+	margin: 0;
+
+	font-family: "PT Sans", Arial,  sans-serif;
+	font-size:  14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: # 000000;
+	text-transform: uppercase;
+
+	background-color:#ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.main-menu {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.main-menu,
+.site-menu {
+	list-style: none;
+}
+
+.main-menu a,
+.site-menu a {
+	color: #000000;
+}
+
+.main-menu a:hover,
+.site-menu 	a:hover{
+	color: #81b3d2;
+}
+
+.main-menu	 a:focus,
+.site-menu	 a:focus{
+	color: #dadada;
+}
+
+.main-menu .active {
+
+color: #766357;
+}	
