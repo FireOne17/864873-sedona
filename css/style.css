@@ -235,7 +235,7 @@ a{
 	background-repeat: no-repeat;
 }	
 
- .item-title .title-item-title{
+  .title-item-title{
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
@@ -259,14 +259,55 @@ a{
 	background-color: #ffffff;
 }
 
-.link-a{
+.link-a p{
 	font-size: 14px;
 	font-weight: 700;
-	text-align: center;
 	line-height: 21px;
+	background-color: #81b3d2;
+	text-align: left;
 	vertical-align: middle;
-	text-transform: uppercase
+	text-transform: uppercase;
 	color: #ffffff;
-	
+	border: none;
 }
+.link-a p:hover{
+	background-color: #669ec0;
+}
+
+.link-a p:focus{
+	background-color: #5496bd;
+	color: #85b0cd;
+	}
+
+.link-b p{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	background-color: #766357;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.link-b p:hover{
+	background-color: #604e43;
+}
+
+.link-b p:focus{
+	color: #928a85;
+	background-color: #503e33;
+}
+
+.rating-text{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+	background-color: #f2f2f2;
+
+}	
+
+.main-footer{
+	background-color: #f9fbf7;
 
