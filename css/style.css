@@ -23,7 +23,7 @@ a{
 .main-menu {
 	font-size: 14px;
 	line-height: 26px;
-	font-weight: bold;
+	font-weight: 700;
 	color: #000000;
 	background-color: #ffffff;
 }
@@ -48,13 +48,15 @@ a{
 	color: #dadada;
 }
 
+ 
+
 .about-us{
 	text-align: center;
 }
 
 .about-title{
 	font-size: 21px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 26px;
 }
 
@@ -74,7 +76,7 @@ a{
 .reason-item-title h2,
 .reason-title h2{
 	font-size: 21px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 21px;
 
 }
@@ -86,7 +88,7 @@ a{
 
 .feature-title h3{
 	font-size: 21px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 21px;
 }
 
@@ -101,7 +103,7 @@ a{
 
 .benefits-interest {
 	font-size: 30px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 36px;
 	text-align: center;
 	background-color: #ffffff;
@@ -114,7 +116,7 @@ a{
 
 .searh-btn-open{
 	font-size: 21px;
-	font-weight:bold;
+	font-weight: 700;
 	line-height: 26px;
 	text-align: center;
 	color: #ffffff;
@@ -135,13 +137,13 @@ background-color: #604e43;
 
 label{
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .form-date input,
 .number-persons input{
 	font: inherit;
-	font-weight: bold;
+	font-weight: 700;
 	color: #000000;
 	background-color: #f2f2f2;
 	border: none;
@@ -149,7 +151,7 @@ label{
 
 .btn-search{
 	font-size: 21px;
-	font-weight:bold;
+	font-weight: 700;
 	text-align: center;
 	color: #ffffff;
 	background-color: #81b3d2;
@@ -197,7 +199,7 @@ a{
 .main-menu {
 	font-size: 14px;
 	line-height: 26px;
-	font-weight: bold;
+	font-weight: 700;
 	color: #000000;
 	background-color: #ffffff;
 }
@@ -222,6 +224,49 @@ a{
 	color: #dadada;
 }
 
- .main-menu li.site-menu-right.active{
- color: #766357;
+.main-menu .current { 
+  	font-size:  14px;
+  	font-weight: 700;
+ 	color: #766357;
+ 	text-transform: uppercase;
+
+	background-color:#ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
 }	
+
+ .item-title .title-item-title{
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #000000;
+	background-color:#ffffff;
+}
+
+.title-item-title:hover {
+	color: #81b3d2;
+}
+ .title-item-title:focus{
+	color: #cacaca;
+}
+
+.item-text 
+.item-text-cost{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.link-a{
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 21px;
+	vertical-align: middle;
+	text-transform: uppercase
+	color: #ffffff;
+	
+}
+
