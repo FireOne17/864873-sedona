@@ -6,7 +6,7 @@ body {
 	font-size:  14px;
 	line-height: 21px;
 	font-weight: 400;
-	color: # 000000;
+	color: #000000;
 	text-transform: uppercase;
 
 	background-color:#ffffff;
@@ -171,8 +171,8 @@ label{
 
 .main-footer{
 	background-color: #f9fbf7;
-
 }
+
 
 .inner-page{
 padding: 0;
@@ -182,7 +182,7 @@ padding: 0;
 	font-size:  14px;
 	line-height: 21px;
 	font-weight: 400;
-	color: # 000000;
+	color: #000000;
 	text-transform: uppercase;
 
 	background-color:#ffffff;
@@ -270,11 +270,13 @@ a{
 	color: #ffffff;
 	border: none;
 }
-.link-a p:hover{
+
+.more:hover{
+ 
 	background-color: #669ec0;
 }
 
-.link-a p:focus{
+.more:active{
 	background-color: #5496bd;
 	color: #85b0cd;
 	}
@@ -290,13 +292,14 @@ a{
 	color: #ffffff;
 }
 
-.link-b p:hover{
+ .link-b .more-a:hover{
 	background-color: #604e43;
 }
 
-.link-b p:focus{
-	color: #928a85;
+ .link-b .more-a:active{
 	background-color: #503e33;
+	color: #877d78;
+
 }
 
 .rating-text{
@@ -310,4 +313,4 @@ a{
 
 .main-footer{
 	background-color: #f9fbf7;
-
+}
