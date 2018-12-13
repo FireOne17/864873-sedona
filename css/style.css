@@ -48,7 +48,7 @@ a{
 	color: #dadada;
 }
 
- 
+
 
 .about-us{
 	text-align: center;
@@ -224,7 +224,7 @@ a{
 	color: #dadada;
 }
 
-.main-menu .current { 
+.main-menu .current {
   	font-size:  14px;
   	font-weight: 700;
  	color: #766357;
@@ -233,7 +233,7 @@ a{
 	background-color:#ffffff;
 	background-position: center;
 	background-repeat: no-repeat;
-}	
+}
 
   .title-item-title{
 	font-size: 21px;
@@ -250,7 +250,7 @@ a{
 	color: #cacaca;
 }
 
-.item-text 
+.item-text
 .item-text-cost{
 	font-size: 14px;
 	font-weight: 400;
@@ -272,7 +272,7 @@ a{
 }
 
 .more:hover{
- 
+
 	background-color: #669ec0;
 }
 
@@ -309,8 +309,39 @@ a{
 	color: #333333;
 	background-color: #f2f2f2;
 
-}	
+}
 
 .main-footer{
 	background-color: #f9fbf7;
+}
+/*Сеточные файлы*/
+html,
+body{
+  min-width: 1280px;
+  min-height: 2761px;
+}
+.main-header{
+  margin-bottom: 557px;
+}
+.main-menu{
+min-width: 1203px;
+}
+.main-heder-logo{
+  width: 142px;
+  height: 72px;
+
+}
+.site-menu{
+  margin: 0;
+  padding: 0;
+list-style: none;
+}
+
+.main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+
 }
