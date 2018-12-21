@@ -317,31 +317,19 @@ a{
 /*Сеточные файлы*/
 html,
 body{
-  min-width: 1280px;
-  min-height: 2761px;
-}
-.main-header{
-  margin-bottom: 557px;
-}
-.main-menu{
-min-width: 1203px;
-}
-.main-heder-logo{
-  width: 142px;
-  height: 72px;
+
+ min-width: 1280px;
+ min-height: 2761px;
 
 }
+
+.main-menu-wrapper{
+	display: flex;
+	  justify-content: space-around;
+    align-items: stretch;
+    flex-direction:column;
+}
+
 .site-menu{
-  margin: 0;
-  padding: 0;
-list-style: none;
-}
-
-.main-menu{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-
 
 }
