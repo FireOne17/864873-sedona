@@ -323,13 +323,63 @@ body{
 
 }
 
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+.main-hedder{
+	margin-bottom: 635px;
+}
+
+
+.main-menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left:40px;
+	padding-right: 40px;
+	margin-top: 0;
+	outline: 2px solid green;
+
+}
+.main-menu-wrapper .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+
 .main-menu-wrapper{
 	display: flex;
-	  justify-content: space-around;
-    align-items: stretch;
-    flex-direction:column;
+	
+	width: 100%;
+	margin-bottom: 56px;
+
 }
+
+
+.main-hedder-logo {
+	
+position: absolute;
+
+	width: 142px;
+	height: 72px;
+margin: 0;
+padding: 0;
+
+	outline: 2px solid red;
+}
+
 
 .site-menu{
+	
+	width: 1200px;
+	margin:0;
+	padding: 0 40px;
+	list-style: none;
+	justify-content: flex-start;
 
-}
+
+
+	
